@@ -1,0 +1,26 @@
+.testimonials {
+ display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 300px;
+  max-width: 100%;
+  background: #f7f9fa;
+  padding: 40px;
+  letter-spacing: 1px;
+  text-align: center;
+
+  
+}
+
+ img {
+	  height: 90px;
+	  border-radius: 50%;
+   } 
+
+@media (max-width: 400px) {
+    .testimonials {
+        display: inline-block;
+        height: 600px;    
+        
+    }
+}

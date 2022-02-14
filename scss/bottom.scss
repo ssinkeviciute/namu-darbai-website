@@ -1,0 +1,31 @@
+
+.bottom-nav {
+  display: flex;
+  list-style: none;
+  height: 100px;
+  align-items: center;
+
+  .about, 
+  .contact,
+  .terms,
+  .privacy{
+    padding: 5px;
+    text-decoration: none;
+    color: #007bff;
+    margin-left: 80px;
+  
+  }
+  
+  .push-2 {
+    margin-left: auto;
+    margin-right: 120px;
+    cursor: pointer;
+    letter-spacing: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+    .bottom-nav {
+        display: inline-block;
+    }
+}

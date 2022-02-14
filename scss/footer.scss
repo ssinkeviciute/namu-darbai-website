@@ -1,0 +1,41 @@
+footer {
+  display: flex;
+  align-items: center;
+  height: 240px;
+  width: 100%;
+  color: white;
+  background: url("../content/bg-masthead.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+
+  .bottom {
+    width: 100%;
+    padding: 50px;
+    justify-content: center;
+    text-align: center;
+  
+    .email {
+      background-color: #f9f9f9;
+      width: 300px;
+      height: 25px;
+      margin-top: 30px;
+      padding: 5px;
+      border-radius: 5px 5px 5px 5px;
+      border: none;
+    }
+  .button {
+    height: 33px;
+    width: 100px;
+    padding: 5px;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-left: 3px;
+    cursor: pointer;
+
+  }
+  
+  }
+}

@@ -1,0 +1,30 @@
+.main-nav {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 10px;
+  
+  .business {
+    text-decoration: none;
+    margin-left: 100px;
+    color: black;
+  }
+
+  .push {
+    margin-left: auto;
+    margin-right: 100px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+  
+  }
+
+}
